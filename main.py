@@ -15,4 +15,5 @@ with open('./books/frankenstein.txt') as file:
     char_list.sort(key=lambda x: x[1], reverse=True)
     for item in char_list:
         print(f'The {item[0]} character was found {item[1]} times')
+    print('')
     print('--- End report ---')
